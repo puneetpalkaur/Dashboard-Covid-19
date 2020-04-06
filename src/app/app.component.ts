@@ -16,6 +16,7 @@ export class AppComponent implements AfterViewInit{
   mapOptions: google.maps.MapOptions = {
     center: this.coordinates,
     zoom: 2,
+    disableDefaultUI: true
   };
 public markers;
 
