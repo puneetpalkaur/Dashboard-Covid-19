@@ -86,7 +86,7 @@ public markers;
     });
   }
   getGlobalData(){
-      this.httpClient.get('http://localhost:3000/api/getData').subscribe((res) => {
+      this.httpClient.get(location.protocol + '//' + location.host + '/api/getData').subscribe((res) => {
       //  console.log(' response from API', res);
         this.markers = res;
         this.loadAllMarkers();

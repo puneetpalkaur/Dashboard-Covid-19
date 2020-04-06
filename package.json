@@ -1,5 +1,5 @@
 {
-  "name": "dashboard-app",
+  "name": "COVID-19 dashboard",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
