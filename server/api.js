@@ -24,7 +24,7 @@ app.get('/getData', async (req, res) => {
   let response;
 
   try {
-    response =  await axios.get('https://corona.lmao.ninja/countries');
+    response =  await axios.get('https://corona.lmao.ninja/v2/countries');
     const { data = [] } = response;
     return res.send(data);
       } catch(e) {
